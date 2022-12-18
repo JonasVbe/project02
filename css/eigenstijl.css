@@ -3,18 +3,36 @@
 
 .fa-brands {
     color: #fff
-  }
+}
 
-  .maskedstyle {
+.maskedstyle {
     background-color: rgba(0, 0, 0, 0.6);
-   
-   
-  }
 
-  .colorblack{
-    color:black
-  }
-  
+
+}
+
+.colorblack {
+    color: black
+}
+
+/* over mij */
+.caption {
+    position: absolute;
+    left: 0;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+
 
 /* index stijl */
-
