@@ -7,10 +7,12 @@
     <meta name="robots" content="noindex">
     <link rel="icon" type="image/x-icon" href="img/favicon(2).ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/eigenstijl.css">
     <title>Document</title>
 </head>
 <body>
+  <!-- nabar onder -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Jonas Van Berlo</a>
@@ -41,40 +43,136 @@
           </div>
         </div>
       </nav>
+<!-- hieronder contact inleiding inhoud -->
+<section>
+  <div class="container-fluid">
+    <div class="container">
+      <h1>Contact</h1>
+      Als je meer wilt weten over mij, voel je dan vrij om me te
+        contacteren!
 
-      <form>
-        <div>
-          <label for="name">Naam en voornaam:</label><br>
-          <input type="text" id="name" name="name" required>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- hieronder contact form -->
+<div class="container-fluid px-5 my-5">
+  <div class="row justify-content-center">
+    <div class="col-xl-10">
+      <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+        <div class="card-body p-0">                
+          <div class="row g-0">
+            <div class="col-sm-6 bg-image">
+              <div class="container p-4">
+              <h3 class="fw-light"><i class="bi bi-geo-alt"></i>  Locatie:</h3>
+              <div class="mx-5">Arendonk, België</div>
+                <br />
+                <h3 class="fw-light"><i class="bi bi-envelope"></i>  Email:</h3>
+              <div>
+                 <a href="Mailto:jonasvanberlo@illin.be">jonasvanberlo@illin.be</a>
+              </div>
+              <br>
+              <h3 class="fw-light"><a href="https://www.linkedin.com/in/jonas-van-berlo-959964256/"><i class="bi bi-linkedin colorblack"></i></a> LinkedIn:</h3>
+              <div>
+                <a href="https://www.linkedin.com/in/jonas-van-berlo-959964256/">Link
+                  </a>
+                </div>
+              </div>
+
+             
+
+
+
+            </div>
+            <div class="col-sm-6 p-4">
+              <div class="text-center">
+                <div class="h3 fw-light">Contact formulier</div>
+                
+              </div>      
+             
+              <!-- formulier zelf -->
+              <form id="contactForm" >
+
+                <!-- Name Input -->
+                <div class="form-floating mb-3">
+                  <input class="form-control" id="name" type="text" placeholder="Name" required />
+                  <label for="name">Naam en voornaam</label>
+                  
+                </div>
+
+                
+
+                <!-- Email-->
+                <div class="form-floating mb-3">
+                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
+                  <label for="emailAddress">Email Address</label>
+                  
+                </div>
+
+                <div class="form-floating mb-3">
+                  
+                  <select name="skillsninterest" id="skillsninterest" class="form-select" >                          
+                    <option value="skill1">C#</option>
+                    <option value="skill2">SQL</option>
+                    <option value="skill3">HTML & CSS</option>
+                    <option value="skill4">Bootstrap</option>
+                    <option value="skill5">Mindfullness</option>
+                    <option value="skill5">Pizza</option>
+                  </select>
+                  <label for="skillsninterest">Skills en intresses</label>
+
+
+                </div>
+                
+
+               
+
+                <!-- Message Input -->
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                  <label for="message">Message</label>
+                  <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                </div>
+
+                <!-- Submit success message -->
+                <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    <p>To activate this form, sign up at</p>
+                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+                </div>
+
+                <!-- Submit error message -->
+                <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="d-grid">
+                  <button class="btn btn-outline-primary btn-lg" id="submitButton" type="submit">Verstuur</button>
+                </div>
+              </form>
+              <!-- End of contact form -->
+
+            </div>
+          </div>
+
         </div>
-        <div>
-          <label for="email">Email adres:</label><br>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-          <label for="interests">Interesses:</label><br>
-          <select id="interests" name="interests">
-            <option value="option1">Optie 1</option>
-            <option value="option2">Optie 2</option>
-            <option value="option3">Optie 3</option>
-          </select>
-        </div>
-        <div>
-          <label for="skills">Skills:</label><br>
-          <select id="skills" name="skills" multiple>
-            <option value="skill1">Vaardigheid 1</option>
-            <option value="skill2">Vaardigheid 2</option>
-            <option value="skill3">Vaardigheid 3</option>
-          </select>
-        </div>
-        <div>
-          <label for="message">Vraag:</label><br>
-          <textarea id="message" name="message" rows="5" cols="30" required></textarea>
-        </div>
-        <div>
-          <input type="submit" value="Verstuur">
-        </div>
-      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- google maps -->
+<div class="container-fluid px-5 my-5 heightmap">
+  <div class="row justify-content-center">
+    <div class="col-xl-10 ">
+<div class="card border-0 rounded-3 shadow-lg overflow-hidden p-1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79753.69163364859!2d5.014898489976634!3d51.34234121816171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b5e2092cb971%3A0x62f9922a786ea8d2!2s2370%20Arendonk!5e0!3m2!1snl!2sbe!4v1671375848056!5m2!1snl!2sbe"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div></div></div></div>
+
+
       
     <!-- footer -->
  <footer class="footer bg-dark text-white py-3 mt-auto">

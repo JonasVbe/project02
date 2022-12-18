@@ -7,9 +7,14 @@
 
   .maskedstyle {
     background-color: rgba(0, 0, 0, 0.6);
-   padding:20
+   
    
   }
+
+  .colorblack{
+    color:black
+  }
+  
 
 /* index stijl */
 
