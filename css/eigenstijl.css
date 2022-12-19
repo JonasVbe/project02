@@ -36,3 +36,14 @@
 
 
 /* index stijl */
+
+.backgroundzen {
+    /* The image used */
+    background-image: url("../img/overmij/photo-1531816247963-c7b28072d65d.jpg");
+    /* Full height */
+    height: 25%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
