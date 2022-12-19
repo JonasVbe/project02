@@ -19,7 +19,7 @@
 .caption {
     position: absolute;
     left: 0;
-    top: 18%;
+    top: 17%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -39,7 +39,7 @@
 
 .backgroundzen {
     /* The image used */
-    background-image: url("../img/overmij/photo-1531816247963-c7b28072d65d.jpg");
+    background-image: url("../img/interesses/photo-1531816247963-c7b28072d65d.jpg");
     /* Full height */
     height: 25%;
     /* Center and scale the image nicely */
@@ -47,3 +47,31 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.backgroundit {
+    /* The image used */
+    background-image: url("../img/overmij/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    /* Full height */
+    height: 25%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bod,
+html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+.pershead {
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .perspar {
+    font-size: 1.2em;
+    color: #666;
+  }
