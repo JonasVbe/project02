@@ -15,11 +15,9 @@
     color: black
 }
 
-/* over mij */
+/* caption kwart page */
 .caption {
-    position: absolute;
-    left: 0;
-    top: 17%;
+    
     width: 100%;
     text-align: center;
     color: #000;
@@ -32,6 +30,18 @@
     font-size: 25px;
     letter-spacing: 10px;
 }
+
+.parent {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .child {    
+    width: 100%;
+    
+  }
 
 
 
