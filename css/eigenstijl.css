@@ -17,7 +17,7 @@
 
 /* caption kwart page */
 .caption {
-    
+
     width: 100%;
     text-align: center;
     color: #000;
@@ -32,16 +32,16 @@
 }
 
 .parent {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .child {    
+}
+
+.child {
     width: 100%;
-    
-  }
+
+}
 
 
 
@@ -68,6 +68,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .backgroundcv {
     /* The image used */
     background-image: url("../img/cv/bram-naus-n8Qb1ZAkK88-unsplash.jpg");
@@ -83,15 +84,46 @@
 html {
     height: 100%;
     margin: 0;
-    
+
 }
 
 .pershead {
     font-weight: 700;
     color: #333;
-  }
-  
-  .perspar {
+}
+
+.perspar {
     font-size: 1.2em;
     color: #666;
+}
+
+ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline-3:before {
+    content: " ";
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline-3 > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  ul.timeline-3 > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #bfc4c5;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
   }
