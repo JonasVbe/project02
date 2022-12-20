@@ -47,6 +47,16 @@
 
 /* index stijl */
 
+.backgroundfeetup {
+    background-image: url("../img/index/homepage_resize.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: Cover;
+  }
+
 .backgroundzen {
     /* The image used */
     background-image: url("../img/interesses/photo-1531816247963-c7b28072d65d.jpg");
@@ -126,4 +136,20 @@ ul.timeline-3 {
     width: 20px;
     height: 20px;
     z-index: 400;
+  }
+
+  .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  
+  .text-marker {
+  text-shadow: 1px 1px 2px black;
   }

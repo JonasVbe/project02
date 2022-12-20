@@ -1,124 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <link rel="icon" type="image/x-icon" href="img/favicon(2).ico" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/eigenstijl.css" />
-    <link rel="stylesheet" href="vendor/owlcarousel/css/owl.carousel.min.css" />
-    <link
-      rel="stylesheet"
-      href="vendor/owlcarousel/css/owl.theme.default.min.css"
-    />
 
-    <title>JVB-CV</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/x-icon" href="img/favicon(2).ico" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/eigenstijl.css" />
+  <link rel="stylesheet" href="vendor/owlcarousel/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="vendor/owlcarousel/css/owl.theme.default.min.css" />
 
-  <body class="bod">
-    <!-- hieronder navbar -->
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Jonas Van Berlo</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Start</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="overmij.html">Over mij</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="cv.html"
-                >Curriculum vitae</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="interesses.html">Interesses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <title>CV - JVB</title>
+</head>
 
-    <!-- hieronder half pager -->
-    <div class="backgroundcv parent">
-      <div class="caption child">
-        <span class="border">CV</span>
+<body class="bod">
+  <!-- hieronder navbar -->
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jonas Van Berlo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Start</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="overmij.html">Over mij</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="cv.html">Curriculum vitae</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="interesses.html">Interesses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <!-- hieronder inleidende tekst -->
+  <!-- hieronder half pager -->
+  <div class="backgroundcv parent">
+    <div class="caption child">
+      <span class="border">CV</span>
+    </div>
+  </div>
 
-    <!-- hieronder titel en inleiding -->
-    <div class="container my-3">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="pershead">Gegevens:</h2>
-        </div>
-        <div class="col-12">
-          <p class="perspar">Naam: Jonas Van Berlo</p>
-          <p class="perspar">Geboortedatum: 16-08-1986</p>
-        </div>
+  <!-- hieronder inleidende tekst -->
+
+  <!-- hieronder titel en inleiding -->
+  <section class="container mt-3">
+    <h1 class="pershead display-4 text-center text-md-left my-4">Curriculum Vitae</h1>
+    <div class="row">
+      <div class="col-md-6">       
+        <h2 class="pershead mt-3">Persoons gegevens:</h2>
+        <div class="perspar">Naam: Jonas Van Berlo</div>
+        <div class="perspar">Gemeente: Arendonk</div>
+        <div class="perspar">Geboortedatum: 16-08-1986</div>
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <h2 class="pershead mt-3">Talenkennis:</h2>
+        <div class="perspar">Nederlands: Moedertaal</div>
+        <div class="perspar">Engels: Goed</div>
+        <div class="perspar">Frans: Basis</div>
+
       </div>
     </div>
-
-    <!-- hieronder "carousel" -->
-
-    <main class="my-2">
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <h2 class="pershead">Skills:</h2>
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <img src="img/cv/Csharp.png" alt="C#" />
-                  </div>
-                  <div class="item">
-                    <img src="img/cv/html5.png" alt="HTML5" />
-                  </div>
-                  <div class="item">
-                    <img src="img/cv/css3.png" alt="CSS3" />
-                  </div>
-                  <div class="item">
-                    <img src="img/cv/javascript.png" alt="Javascript" />
-                  </div>
-                  <div class="item">
-                    <img src="img/cv/bootstrap.png" alt="bootstrap" />
-                  </div>
-                  <div class="item"><img src="img/cv/sql.png" alt="SQL" /></div>
-                </div>
-                <!-- /carousel -->
-              </div>
-              <!-- /cardbody -->
-            </div>
-            <!-- /card -->
-          </div>
-          <!-- /col12 -->
-        </div>
-        <!-- /row -->
-      </div>
-      <!-- /cont -->
-    </main>
+  </section>
 
     <!-- hieronder timeline -->
     <div class="container">
@@ -126,88 +81,112 @@
         <div class="col-md-6">
           <div class="container my-5">
             <div class="row">
-              <div class="col offset-md-1">
-                <h3 style="margin-left: 1.2rem">Opleidingen</h3>
+              <div class="col">
+                <h2 class="pershead">Opleidingen</h2>
                 <ul class="timeline-3">
                   <li>
-                    <a class="text-primary">2004</a>
-                    <p class="mt-2">
-                      
-                      <b>Wetenschappen-Wiskunde-Moderne talen</b><br>
+                    <div class="text-primary"><u>2004</u></div>
+                    <div class="mt-2">
+                      <b>Wetenschappen-Wiskunde-Moderne talen</b><br />
                       Koninklijk Atheneum Turnhout
-                    </p>
+                    </div>
                   </li>
                   <li>
-                    <a class="text-primary">2010</a>
-                    <p class="mt-2">
-                      
-                      <b>Leidinggeven voor beginners</b><br>
+                    <div class="text-primary"><u>2010</u> </div>
+                    <div class="mt-2">
+                      <b>Leidinggeven voor beginners</b><br />
                       Syntra
-                    </p>
+                    </div>
                   </li>
                   <li>
-                    <a class="text-primary">2013</a>
-                    <p class="mt-2">
-                      
-                      <b>Basiskennis bedrijfsbeheer</b><br>
+                    <div class="text-primary"><u>2013</u></div>
+                    <div class="mt-2">
+                      <b>Basiskennis bedrijfsbeheer</b><br />
                       Syntra
-                    </p>
+                    </div>
                   </li>
                   <li>
-                    <a class="text-primary">2015</a>
+                    <div class="text-primary"><u>2015</u></div>
                     <p class="mt-2">
-                      
-                      <b>Management Systeem training</b><br>
+                      <b>Management Systeem training</b><br />
                       Argos-Zigomar
                     </p>
                   </li>
                   <li>
-                    <a class="text-primary">2024</a>
-                    <p class="mt-2">
-                      
-                      <b>Graduaat toegepaste informatica: Programmeren*</b><br>
-                      Thomas More <br>
+                    <div class="text-primary"><u>2024</u></div>
+                    <div class="mt-2">
+                      <b>Graduaat toegepaste informatica: Programmeren*</b><br />
+                      Thomas More <br />
                       *onder voorbehoud
-                    </p>
+                    </div>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-
+  
         <div class="col-md-6">
           <div class="container my-5">
             <div class="row">
-              <div class="col-md-6 offset-md-3">
-                <h4>Latest News</h4>
+              <div class="col offset-md-1">
+                <h2 class="pershead">Werkervaring</h2>
                 <ul class="timeline-3">
                   <li>
-                    <a class="text-primary">2015</a>
-                    <p class="mt-2">
+                    <div class="text-primary"><u>zomer 2003</u> & <u>zomer 2004</u> </div>
+                    <div class="mt-2">
+                      <b>Order Picker</b><br />
+                      Vakantiejob bij Albert hein
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text-primary"><u>nov 2004</u> - <u>feb 2008</u></div>
+                    <div class="mt-2">
+                      <b>Magazijnier</b><br>
+                      Eurosurplus BVBA
+                    </div>
+                  </li>                
+                  <li>
+                    <div class="text-primary"><u>feb. 2008</u> - <u>mar. 2010</u></div>
+                    <div class="mt-2">
+                      <b>Warehouse Administrator</b><br>
+                      Eurosurplus BVBA
+                    </div>
+                    </li>
+                    <li>
+                      <div class="text-primary"><u>mei 2008</u> - <u>nov. 2008</u></div>
+                      <div class="mt-2">
+                        <b>Barman</b><br>
+                        <b>Serveur</b><br>
+                        Bijbaan bij Brasserie het stadspark                    
+                      </div>
+                    </li>
+                    <li>
+                      <div class="text-primary"><u>mar. 2010</u> - <u>jan. 2016</u></div>
+                      <div class="mt-2">
+                        <b>Warehouse Manager</b><br>
+                        Eurosurplus BVBA
+                      </div>
+                      </li>
+                      <li>
+                        <div class="text-primary"><u>jul. 2015</u> - <u>feb. 2022</u></div>
+                        <div class="mt-2">
+                          <b>Interne Auditeur</b> <br> 
+                          Voor ISO standaard 9001 & 14001<br>
+                          <b>Management Representative</b><br>
+                          Eurosurplus BVBA
+                        </div>
+                        </li>
+                        <li>
+                          <div class="text-primary"><u>mar. 2010</u> - <u>jan. 2016</u></div>
+                          <div class="mt-2">
+                            <b>Systeem Beheerder</b><br>
+                            Voor ISO systemen standaard 9001 & 14001<br>
+                            <b>Support Services Manager</b><br>
+                            Eurosurplus BVBA
+                          </div>
+                          </li>                    
                       
-                      <b>Management Systeem training</b><br>
-                      Argos-Zigomar
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#!">21 000 Job Seekers</a>
-                    <a href="#!" class="float-end">4 March, 2014</a>
-                    <p class="mt-2">
-                      Curabitur purus sem, malesuada eu luctus eget, suscipit
-                      sed turpis. Nam pellentesque felis vitae justo accumsan,
-                      sed semper nisi sollicitudin...
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#!">Awesome Employers</a>
-                    <a href="#!" class="float-end">1 April, 2014</a>
-                    <p class="mt-2">
-                      Fusce ullamcorper ligula sit amet quam accumsan aliquet.
-                      Sed nulla odio, tincidunt vitae nunc vitae, mollis
-                      pharetra velit. Sed nec tempor nibh...
-                    </p>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -216,57 +195,96 @@
       </div>
     </div>
 
-    <!-- footer -->
-    <footer class="footer bg-dark text-white py-3 mt-auto">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-auto">
-            <p class="mb-0">Copyright &copy; Jonas Van Berlo</p>
+  <!-- hieronder "carousel" -->
+
+  <main class="my-2">
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="pershead">Skills:</h2>
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <img src="img/cv/Csharp.png" alt="C#" />
+                </div>
+                <div class="item">
+                  <img src="img/cv/html5.png" alt="HTML5" />
+                </div>
+                <div class="item">
+                  <img src="img/cv/css3.png" alt="CSS3" />
+                </div>
+                <div class="item">
+                  <img src="img/cv/javascript.png" alt="Javascript" />
+                </div>
+                <div class="item">
+                  <img src="img/cv/bootstrap.png" alt="bootstrap" />
+                </div>
+                <div class="item"><img src="img/cv/sql.png" alt="SQL" /></div>
+              </div>
+              <!-- /carousel -->
+            </div>
+            <!-- /cardbody -->
           </div>
-          <div class="col-auto">
-            <a href="https://www.facebook.com/" target="_blank" class="mx-2">
-              <i class="fa-brands fa-facebook"></i
-            ></a>
-            <a href="https://www.reddit.com/" target="_blank" class="mx-2">
-              <i class="fa-brands fa-reddit-alien"></i
-            ></a>
-            <a href="https://www.linkedin.com/" target="_blank" class="mx-2">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </div>
+          <!-- /card -->
+        </div>
+        <!-- /col12 -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /cont -->
+  </main>
+
+
+
+  <!-- footer -->
+  <footer class="footer bg-dark text-white py-3 mt-auto">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-auto">
+          <p class="mb-0">Copyright &copy; Jonas Van Berlo</p>
+        </div>
+        <div class="col-auto">
+          <a href="https://www.facebook.com/" target="_blank" class="mx-2">
+            <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.reddit.com/" target="_blank" class="mx-2">
+            <i class="fa-brands fa-reddit-alien"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" class="mx-2">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="vendor/owlcarousel/js/jquery.min.js"></script>
-    <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="vendor/owlcarousel/js/jquery.min.js"></script>
+  <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
 
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        responsive: {
-          0: {
-            items: 3,
-          },
-          900: {
-            items: 4,
-          },
-          1200: {
-            items: 5,
-          },
-          1550: {
-            items: 6,
-          },
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 3,
         },
-      });
-    </script>
+        900: {
+          items: 4,
+        },
+        1200: {
+          items: 5,
+        },
+        1550: {
+          items: 6,
+        },
+      },
+    });
+  </script>
 
-    <script
-      src="https://kit.fontawesome.com/7a17337a3a.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://kit.fontawesome.com/7a17337a3a.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
