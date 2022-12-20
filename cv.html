@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/eigenstijl.css">
   <link rel="stylesheet" href="vendor/owlcarousel/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="/vendor/owlcarousel/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendor/owlcarousel/css/owl.theme.default.min.css">
 
 
   <style>
@@ -36,12 +36,11 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Start</a>
-          </li>
-          </li>
           <li class="nav-item">
           <li class="nav-item">
             <a class="nav-link" href="overmij.html">Over mij</a>
           </li>
+          <li>
           <a class="nav-link active" aria-current="page" href="cv.html">Curriculum vitae</a>
           </li>
           <li class="nav-item">
@@ -58,90 +57,93 @@
   <!-- hieronder half pager -->
   <div class="backgroundcv">
     <div class="caption">
-        <span class="border">CURRICULUM VITAE</span>
-        
+      <span class="border">CURRICULUM VITAE</span>
+
     </div>
-</div>
+  </div>
 
   <!-- hieronder "carousel" -->
 
-  < <main role="main">
+  <main>
 
     <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-md-12">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
 
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Skills</h4>
-                        <div class="owl-carousel owl-theme">
-                            <div class="item"> <img src="/img/cv/Csharp.png" alt="C#" /> </div>
-                            <div class="item"> <img src="img/cv/html5.png" alt="HTML5" /></div>
-                            <div class="item"> <img src="/img/cv/css3.png" alt="CSS3" /> </div>
-                            <div class="item"> <img src="/img/cv/javascript.png" alt="Javascript" /></div>
-                            <div class="item"> <img src="/img/cv/bootstrap.png" alt="bootstrap" /> </div>
-                            <div class="item"> <img src="/img/cv/sql.png" alt="SQL" /> </div>
-                           
-                        </div>
-                        <!-- /carousel -->
-                    </div>
-                    <!-- /cardbody -->
-                </div>
-                <!-- /card -->
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Skills</h4>
+              <div class="owl-carousel owl-theme">
+                <div class="item"> <img src="img/cv/Csharp.png" alt="C#" /> </div>
+                <div class="item"> <img src="img/cv/html5.png" alt="HTML5" /></div>
+                <div class="item"> <img src="img/cv/css3.png" alt="CSS3" /> </div>
+                <div class="item"> <img src="img/cv/javascript.png" alt="Javascript" /></div>
+                <div class="item"> <img src="img/cv/bootstrap.png" alt="bootstrap" /> </div>
+                <div class="item"> <img src="img/cv/sql.png" alt="SQL" /> </div>
+
+              </div>
+              <!-- /carousel -->
             </div>
-            <!-- /col12 -->
+            <!-- /cardbody -->
+          </div>
+          <!-- /card -->
         </div>
-        <!-- /row -->
+        <!-- /col12 -->
+      </div>
+      <!-- /row -->
     </div>
     <!-- /cont -->
-</main>
+    </main>
 
 
-  <!-- footer -->
-  <footer class="footer bg-dark text-white py-3 mt-auto">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-auto">
-          <p class="mb-0">Copyright &copy; Jonas Van Berlo</p>
-        </div>
-        <div class="col-auto">
-          <a href="https://www.facebook.com/" target="_blank" class="mx-2">
-            <i class="fa-brands fa-facebook"></i></a>
-          <a href="https://www.reddit.com/" target="_blank" class="mx-2">
-            <i class="fa-brands fa-reddit-alien"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" class="mx-2">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+    <!-- footer -->
+    <footer class="footer bg-dark text-white py-3 mt-auto">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto">
+            <p class="mb-0">Copyright &copy; Jonas Van Berlo</p>
+          </div>
+          <div class="col-auto">
+            <a href="https://www.facebook.com/" target="_blank" class="mx-2">
+              <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.reddit.com/" target="_blank" class="mx-2">
+              <i class="fa-brands fa-reddit-alien"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="mx-2">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="vendor/owlcarousel/js/jquery.min.js"></script>
-  <script src="/vendor/owlcarousel/js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/owlcarousel/js/jquery.min.js"></script>
+    <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
 
-  <script type="text/javascript ">
-    $('.owl-carousel').owlCarousel({
+    <script>
+      $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
         responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 4
-            }
+          0: {
+            items: 3
+          },
+          900: {
+            items: 4
+          },
+          1200: {
+            items: 5
+          },
+          1550: {
+            items: 6
+          }
         }
-    })
-</script>
+      })
+    </script>
 
-  <script src="https://kit.fontawesome.com/7a17337a3a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7a17337a3a.js" crossorigin="anonymous"></script>
 
 </body>
 
